@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/autocomplete/autocomplete.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/backup/backup.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/button-generator/button-generator.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/color-picker/color-picker.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/emoji/emoji.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/finder/finder.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/google-maps/google-maps.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/iframe-editor/iframe-editor.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/keyboard/keyboard.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/mobile-view/mobile-view.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/page-break/page-break.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/paste-code/paste-code.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/todo-list/todo-list.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/translate/translate.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/plugins/tune-block/tune-block.css') }}" />
+<link rel="stylesheet" href="{{ asset('custom/jodit/jodit.css') }}" />

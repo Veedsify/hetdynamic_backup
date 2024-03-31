@@ -1,0 +1,481 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+    <title>Wolves</title>
+
+    <style type="text/css">
+        body {
+            width: 100%;
+            background-color: #029080;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            mso-margin-top-alt: 0px;
+            mso-margin-bottom-alt: 0px;
+            mso-padding-alt: 0px 0px 0px 0px;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4 {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        span.preheader {
+            display: none;
+            font-size: 1px;
+        }
+
+        html {
+            width: 100%;
+        }
+
+        table {
+            font-size: 12px;
+            border: 0;
+        }
+
+        .menu-space {
+            padding-right: 25px;
+        }
+
+        a,
+        a:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        @media only screen and (max-width: 640px) {
+            body {
+                width: auto !important;
+            }
+
+            table [class="main"] {
+                width: 440px !important;
+            }
+
+            table [class="two-left"] {
+                width: 420px !important;
+                margin: 0px auto;
+            }
+
+            table [class="full"] {
+                width: 100% !important;
+                margin: 0px auto;
+            }
+
+            table [class="two-left-inner"] {
+                width: 400px !important;
+                margin: 0px auto;
+            }
+
+            table [class="menu-icon"] {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 479px) {
+            body {
+                width: auto !important;
+            }
+
+            table [class="main"] {
+                width: 310px !important;
+            }
+
+            table [class="two-left"] {
+                width: 300px !important;
+                margin: 0px auto;
+            }
+
+            table [class="full"] {
+                width: 100% !important;
+                margin: 0px auto;
+            }
+
+            table [class="two-left-inner"] {
+                width: 280px !important;
+                margin: 0px auto;
+            }
+
+            table [class="menu-icon"] {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body yahoo="fix" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+    <!--Main Table Start-->
+
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#029080">
+        <tr>
+            <td align="center" valign="top">
+                <table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="main">
+                    <tr>
+                        <td height="100" align="center" valign="top" style="font-size: 100px; line-height: 100px">
+                            &nbsp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top"
+                            style="
+                  background: #fff;
+                  margin: 10px;
+                  -moz-border-radius: 8px 8px 0px 0px;
+                  border-radius: 8px 8px 0px 0px;
+                ">
+                            <table width="105" border="0" style="padding: 20px;" align="center" cellpadding="0"
+                                cellspacing="0">
+                                <tr>
+                                    <td height="60" align="center" valign="bottom">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" valign="bottom">
+                                        <a href="#"><img editable="true" mc:edit="bm11-11"
+                                                src="{{ asset($site_data->site_logo) }}" width="70" height="70"
+                                                alt="" /></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" bgcolor="#FFFFFF">
+                            <table width="510" border="0" align="center" cellpadding="0" cellspacing="0"
+                                class="two-left">
+
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table width="100%" border="0" align="center" cellpadding="0"
+                                            cellspacing="0" class="two-left-inner">
+                                            <tr>
+                                                <td height="35" align="left" valign="top"
+                                                    style="font-size: 35px; line-height: 35px">
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="top"
+                                                    style="
+                              font-family: 'Open Sans', sans-serif, Verdana;
+                              font-size: 23px;
+                              color: #46394e;
+                            "
+                                                    mc:edit="bm11-05">
+                                                    <multiline>Hi <b>
+                                                            {{ explode(' ', $user->fullname)[0] }}
+                                                            ,</b></multiline>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" valign="top">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" valign="top"
+                                                    style="
+                              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                                'Lucida Grande', 'Lucida Sans', Arial,
+                                sans-serif;
+                              font-size: 35px;
+                              line-height: 32px;
+                              color: #000;
+                            "
+                                                    mc:edit="bm11-02">
+                                                    <multiline>Welcome to
+                                                        {{ $site_data->site_name }}</multiline>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="left" valign="top">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" valign="top">
+                                                    <table width="510" border="0" align="center" cellpadding="0"
+                                                        cellspacing="0" class="two-left-inner">
+                                                        <tr>
+                                                            <td align="left" valign="top">
+                                                                <table width="490" border="0" cellspacing="0"
+                                                                    cellpadding="0" class="two-left-inner">
+                                                                    <tr>
+                                                                        <td height="20" align="center"
+                                                                            valign="middle"
+                                                                            style="
+                                          line-height: 20px;
+                                          font-size: 20px;
+                                        ">
+                                                                            &nbsp;
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="left" valign="top"
+                                                                            style="
+                                          font-family: 'Open Sans', Verdana,
+                                            Arial;
+                                          font-size: 16px;
+                                          color: #000;
+                                          font-weight: normal;
+                                          line-height: 22px;
+                                        "
+                                                                            mc:edit="bm11-03">
+                                                                            <multiline>
+                                                                                We are excited to have you on board.
+                                                                                can't wait to share your story with the
+                                                                                world.
+                                                                                <br>
+                                                                                <br>
+                                                                                To get started, please confirm your
+                                                                                email address by clicking the button
+                                                                                below.
+                                                                                HetDynamic. Please click the button
+                                                                                below to confirm your email address.
+                                                                            </multiline>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td height="30" align="center"
+                                                                            valign="middle"
+                                                                            style="
+                                          line-height: 30px;
+                                          font-weight: 500; 
+                                          font-size: 22px;
+                                        ">
+                                                                            &nbsp;
+
+                                                                            <div>
+                                                                                <a href="{{ $url }}"
+                                                                                    style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; background-color: #025908; color: #ffffff; padding: 5px 15px; border-radius: 6px; text-decoration: none;">Confirm
+                                                                                    Email</a>
+                                                                            </div>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td align="left" valign="top"
+                                                                            style="
+                                          font-family: 'Open Sans', Verdana,
+                                            Arial;
+                                          font-size: 16px;
+                                          color: #121212;
+                                          font-weight: normal;
+                                        "
+                                                                            mc:edit="bm11-07">
+                                                                            <multiline></multiline>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="10" align="center"
+                                                                            valign="middle"
+                                                                            style="
+                                          line-height: 10px;
+                                          font-size: 10px;
+                                        ">
+                                                                            &nbsp;
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="left" valign="top"
+                                                                            style="
+                                          font-family: 'Open Sans', Verdana,
+                                            Arial;
+                                          font-size: 12px;
+                                          color: #767676;
+                                          font-weight: normal;
+                                          line-height: 24px;
+                                        "
+                                                                            mc:edit="bm11-04">
+                                                                            <multiline> </multiline>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="left" valign="top">
+                                                                            <table width="165" border="0"
+                                                                                align="left" cellpadding="0"
+                                                                                cellspacing="0">
+                                                                                <tr>
+                                                                                    <td height="30" align="center"
+                                                                                        valign="middle"
+                                                                                        style="
+                                                line-height: 30px;
+                                                font-size: 30px;
+                                              ">
+                                                                                        &nbsp;
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td height="50" align="center"
+                                                                            valign="middle"
+                                                                            style="
+                                          line-height: 50px;
+                                          font-size: 50px;
+                                        ">
+                                                                            &nbsp;
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" valign="top"
+                            style="
+                  background: #e6e6e6;
+                  -moz-border-radius: 0px 0px 8px 8px;
+                  border-radius: 0px 0px 8px 8px;
+                ">
+                            <table width="510" border="0" align="center" cellpadding="0" cellspacing="0"
+                                class="two-left-inner">
+                                <tr>
+                                    <td height="55" align="center" valign="center"
+                                        style="font-size: 25px; line-height: 25px">
+                                        <multiline><a href="#" style="text-decoration: none; color: #000"><svg
+                                                    fill="#000000" version="1.1" id="Layer_1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="25px"
+                                                    height="25px" viewBox="0 0 169.063 169.063"
+                                                    xml:space="preserve">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round"></g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g>
+                                                            <path
+                                                                d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752 c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407 c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752 c17.455,0,31.656,14.201,31.656,31.655V122.407z">
+                                                            </path>
+                                                            <path
+                                                                d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561 C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561 c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z">
+                                                            </path>
+                                                            <path
+                                                                d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78 c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78 C135.661,29.421,132.821,28.251,129.921,28.251z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                                &nbsp;&nbsp;&nbsp;
+                                            </a>
+                                        </multiline>
+                                        <multiline><a href="#" style="text-decoration: none; color: #000"><svg
+                                                    fill="#000000" height="25px" width="25px" version="1.1"
+                                                    id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    viewBox="-19.87 -19.87 238.48 238.48" xml:space="preserve">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"
+                                                        transform="translate(0,0), scale(1)"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke="#CCCCCC"
+                                                        stroke-width="0.397474"></g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g>
+                                                            <path
+                                                                d="M197.399,42.479c-2.36-3.401-7.034-4.247-10.438-1.886l-23.288,16.159c-2.115,1.467-3.329,3.916-3.218,6.487 c0.067,1.542,0.1,2.988,0.1,4.42c0,47.603-36.222,96.84-96.839,96.84c-12.357,0-24.497-2.352-35.843-6.889l35.939-10.052 c3.989-1.116,6.318-5.254,5.202-9.243c-1.116-3.988-5.25-6.318-9.243-5.202L5.48,148.299c-2.846,0.796-4.959,3.189-5.397,6.112 c-0.437,2.922,0.882,5.83,3.37,7.425C21.477,173.391,42.316,179.5,63.716,179.5c42.057,0,68.398-19.87,83.091-36.538 c18.27-20.728,28.748-48.174,28.748-75.302c0-0.297-0.001-0.594-0.003-0.892l19.961-13.85 C198.915,50.556,199.76,45.883,197.399,42.479z">
+                                                            </path>
+                                                            <path
+                                                                d="M16.555,40.14l75.585,38.315c1.072,0.544,2.234,0.811,3.39,0.811c1.646,0,3.282-0.541,4.629-1.598 c2.293-1.798,3.337-4.761,2.677-7.6c-0.501-2.154-0.754-4.396-0.754-6.662c0-16.083,13.087-29.168,29.173-29.168 c8.041,0,15.804,3.357,21.296,9.211c2.052,2.188,5.211,2.941,8.031,1.917l23.328-8.476c3.893-1.415,5.903-5.717,4.488-9.61 c-1.414-3.894-5.72-5.901-9.61-4.488l-18.983,6.897c-7.929-6.692-18.083-10.452-28.55-10.452c-22.93,0-41.835,17.561-43.972,39.938 L23.337,26.761c-3.695-1.874-8.208-0.396-10.081,3.298C11.383,33.754,12.86,38.267,16.555,40.14z">
+                                                            </path>
+                                                            <path
+                                                                d="M12.689,85.053l16.608,4.585c0.668,0.185,1.339,0.272,2,0.272c3.289,0,6.307-2.181,7.225-5.506 c1.103-3.992-1.241-8.123-5.233-9.226l-16.608-4.585c-3.99-1.102-8.123,1.24-9.226,5.233C6.353,79.82,8.696,83.95,12.689,85.053z">
+                                                            </path>
+                                                            <path
+                                                                d="M27.25,107.376c-4.139,0.157-7.367,3.639-7.21,7.778c0.153,4.043,3.478,7.216,7.49,7.216c0.096,0,0.192-0.002,0.288-0.005 l16.562-0.628c4.139-0.157,7.367-3.639,7.211-7.779c-0.157-4.139-3.648-7.363-7.778-7.21L27.25,107.376z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </svg>&nbsp;&nbsp;&nbsp;</a></multiline>
+                                        <multiline><a href="#" style="text-decoration: none; color: #000"><svg
+                                                    fill="#000000" height="26px" width="22px" version="1.1"
+                                                    id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                    viewBox="0 0 159.822 159.822" xml:space="preserve">
+                                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                        stroke-linejoin="round"></g>
+                                                    <g id="SVGRepo_iconCarrier">
+                                                        <g>
+                                                            <path
+                                                                d="M76.715,36.172c4.142,0,7.5-3.358,7.5-7.5C84.215,21.133,90.349,15,97.887,15h21.179c4.142,0,7.5-3.358,7.5-7.5 s-3.358-7.5-7.5-7.5H97.887c-15.81,0-28.672,12.862-28.672,28.672C69.215,32.813,72.573,36.172,76.715,36.172z">
+                                                            </path>
+                                                            <path
+                                                                d="M117.458,59.627H40.756c-4.142,0-7.5,3.358-7.5,7.5s3.358,7.5,7.5,7.5h28.46v77.695c0,4.142,3.358,7.5,7.5,7.5 c4.142,0,7.5-3.358,7.5-7.5V74.627h33.243c4.142,0,7.5-3.358,7.5-7.5S121.6,59.627,117.458,59.627z">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </svg></a></multiline>
+                                        &nbsp;
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" valign="top"
+                                        style="
+                        font-family: 'Trebuchet MS';
+                        font-size: 14px;
+                        font-weight: normal;
+                        color: #000;
+                        line-height: 18px;
+                      "
+                                        mc:edit="bm11-06">
+                                        <multiline>Hetdynamic, </multiline>
+                                        <b style="font-size: 12px">
+                                            <unsubscribe>Unsubscribe</unsubscribe>
+                                        </b>
+                                        <br>
+                                        <multiline>
+                                            <a href="{{ route('privacy.policy') }}"
+                                                style="text-decoration: none; color: #000">Privacy
+                                                Policy</a> |
+                                            <a href="{{ route('terms.condition') }}"
+                                                style="text-decoration: none; color: #000">Terms of
+                                                Service</a>
+                                        </multiline>
+                                        <br>
+                                        <multiline>© {{ date('Y') }}
+                                            {{ $site_data->site_name }}
+                                            . All Rights Reserved.</multiline>
+                                        </>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="25" align="center" valign="top"
+                                        style="font-size: 25px; line-height: 25px">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="65" align="left" valign="top" style="font-size: 65px; line-height: 65px">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!--Main Table End-->
+</body>
+
+</html>
